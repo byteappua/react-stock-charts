@@ -40,7 +40,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '20' # 选择所需的 Node.js 版本
+          node-version: '18' # 选择所需的 Node.js 版本
           cache: 'npm'
       #- name: Setup Node
         #uses: actions/setup-node@v4
