@@ -11,7 +11,7 @@ const ReadME = require("md/MAIN.md");
 
 require("stylesheets/re-stock");
 
-document.getElementById("content").innerHTML = ReadME;
+document.getElementById("content").innerHTML = "ReadME";
 
 const parseDate = timeParse("%Y-%m-%d");
 
